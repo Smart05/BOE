@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Impact Corner — Writers | BOE IMPACT HUB</title>
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    :root {
+      --brand-yellow: #FFD700;
+      --brand-green: #006400;
+      --bg: #fff;
+      --muted: #666;
+    }
+
+    * { box-sizing: border-box; font-family: "Segoe UI", Roboto, Arial, sans-serif; }
+    body { margin: 0; background: var(--bg); color: #111; }
+
+    .container { width: 92%; max-width: 1100px; margin: 0 auto; padding: 28px 0; }
+
+    header {
+      background: linear-gradient(90deg, var(--brand-yellow), var(--brand-green));
+      padding: 12px 0;
+      color: #fff;
+      position: relative;
+      z-index: 100;
+    }
+    .logo { display: flex; gap: 12px; align-items: center; font-weight: 800; }
+    nav a { color: #fff; margin-left: 12px; text-decoration: none; font-weight: 700; }
+
+    .hero {
+      height: 350px;
+      width: 100%;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 10%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      margin-bottom: 40px;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.45);
+    }
+
+    .hero h1,
+    .hero p {
+      position: relative;
+      z-index: 2;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 14px;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+
+    footer {
+      background: var(--brand-green);
+      color: #fff;
+      padding: 20px;
+      margin-top: 28px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container" style="display:flex; align-items:center; justify-content:space-between;">
+    <div class="logo">
+      <div style="width:44px;height:44px;border-radius:8px;background:#fff;color:var(--brand-green);display:flex;align-items:center;justify-content:center;font-weight:900;">B</div>
+      <div>
+        BOE IMPACT HUB<br>
+        <small style="opacity:0.9">Impact Corner — Writers</small>
+      </div>
+    </div>
+
+    <nav>
+      <a href="Testing1b.html">Home</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <h1 style="margin:0;">Impact Corner — Writers</h1>
+  <p style="max-width:720px;">A dedicated space to showcase emerging voices.</p>
+</section>
+
+<main class="container">
+
+  <!-- FEATURED WRITERS -->
+  <section>
+    <h2 style="color:var(--brand-green);margin-top:18px;">Featured Writers</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Olivia's First Reflection</h3>
+        <p style="color:var(--muted);">A short piece about finding courage.</p>
+      </div>
+
+      <div class="card">
+        <h3>Samuel's Journey</h3>
+        <p style="color:var(--muted);">Story of resilience and small wins.</p>
+      </div>
+
+      <div class="card">
+        <h3>Aisha Writes</h3>
+        <p style="color:var(--muted);">Exploring purpose in daily routines.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUBMISSION SECTION -->
+  <section style="margin-top:30px;">
+    <h3 style="color:var(--brand-green);">Submit Your Work</h3>
+    <p style="color:var(--muted);">
+      Email your draft to <strong>writers@boeimpacthub.com</strong> with subject
+      “New Writer Submission”. Include a 2–3 sentence bio and a photo (optional).
+    </p>
+  </section>
+
+
+
+  <!-- ⭐ WHY WRITE WITH US -->
+  <section style="margin-top:50px;">
+    <h2 style="color:var(--brand-green);">Why Write With Impact Corner?</h2>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:12px;">
+      <div class="card">
+        <h3>🎤 A Platform for New Voices</h3>
+        <p style="color:var(--muted);">
+          Whether you're a beginner or a hidden gem, Impact Corner amplifies your voice and gives you a space to grow publicly.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>📝 Editorial Guidance</h3>
+        <p style="color:var(--muted);">
+          Our team offers light editing and support to help refine your ideas while preserving your unique voice.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>📚 Build Your Writing Portfolio</h3>
+        <p style="color:var(--muted);">
+          Published works here are automatically archived, giving you a professional portfolio you can share anywhere.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🌍 Influence Lives</h3>
+        <p style="color:var(--muted);">
+          Inspire, motivate, teach, or entertain — your words can create ripples across thousands of readers.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ⭐ WRITER’S RESOURCES -->
+  <section style="margin-top:50px;">
+    <h2 style="color:var(--brand-green);">Writer’s Resources</h2>
+    <p style="color:var(--muted);max-width:800px;">
+      Whether you're struggling with writer's block or looking to sharpen your creativity,
+      these curated tools and tips will help elevate your craft.
+    </p>
+
+    <ul style="list-style: none; padding: 0; margin-top: 16px; line-height: 1.8;">
+      <li>✍️ <strong>30 Daily Writing Prompts</strong> to spark creativity</li>
+      <li>📖 <strong>Free Guide:</strong> How to structure a powerful short story</li>
+      <li>🎧 <strong>Podcast Picks:</strong> Top storytelling and creative writing shows</li>
+      <li>📚 <strong>Recommended Books</strong> on craft, style, and inspiration</li>
+      <li>💡 <strong>Tips for Staying Consistent</strong> when the motivation fades</li>
+    </ul>
+  </section>
+
+
+
+  <!-- ⭐ WRITER OF THE MONTH -->
+  <section style="margin-top:50px;">
+    <h2 style="color:var(--brand-green);">Writer of the Month</h2>
+
+    <div class="card" style="display:flex;gap:20px;align-items:center;">
+      <div style="width:120px;height:120px;border-radius:10px;background:#ddd;"></div>
+      <div>
+        <h3 style="margin:0;">🌟 Babalola Jesutosin</h3>
+        <p style="color:var(--muted);margin-top:8px;">
+          Celebrated for her thought-provoking reflection <em>“When the Heart Remembers”</em>,
+          Amara’s storytelling beautifully blends emotion, memory and cultural identity.
+        </p>
+        <p style="margin:0;color:var(--brand-green);font-weight:600;">“Every voice has a truth, every story carries a light.”</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ⭐ JOIN THE COMMUNITY -->
+  <section style="margin-top:50px;text-align:center;">
+    <h2 style="color:var(--brand-green);">Join Our Creative Community</h2>
+    <p style="color:var(--muted);max-width:700px;margin:10px auto;">
+      Be part of a growing network of writers, thinkers, and creative minds who use words to inspire change.
+      From poetry to short stories, essays to reflections — your voice matters.
+    </p>
+
+    <a href="#" style="
+      display:inline-block;
+      padding:12px 28px;
+      background:var(--brand-green);
+      color:#fff;
+      text-decoration:none;
+      border-radius:8px;
+      margin-top:8px;
+    ">Join the Community</a>
+  </section>
+
+
+
+  <!-- ⭐ INSPIRATIONAL QUOTES -->
+  <section style="margin-top:60px;margin-bottom:40px;">
+    <h2 style="color:var(--brand-green);">Words That Move Us</h2>
+
+    <div class="card" style="text-align:center;font-style:italic;font-size:1.1rem;">
+      <p>“A writer is someone for whom writing is more difficult than it is for other people.” — Thomas Mann</p>
+      <p>“You can make anything by writing.” — C.S. Lewis</p>
+      <p>“There is no greater agony than bearing an untold story inside you.” — Maya Angelou</p>
+      <p>“The scariest moment is always just before you start.” — Stephen King</p>
+    </div>
+  </section>
+
+
+</main>
+
+<footer>
+  &copy; <span id="y2"></span> BOE IMPACT HUB (2025)
+</footer>
+
+<script>
+document.getElementById('y2').textContent = new Date().getFullYear();
+
+document.addEventListener("DOMContentLoaded", () => {
+  const hero = document.querySelector(".hero");
+  const heroHeading = document.querySelector(".hero h1");
+
+  const heroImages = ["imp1.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg"];
+  const heroTexts = [
+    "A little humor to light up your day",
+    "Because laughter is also an impact",
+    "Inspire change. Write, express, impact",
+    "This is your corner to think, write and create impact"
+  ];
+
+  let heroIndex = 0;
+
+  hero.style.transition = "background-image 1s ease-in-out";
+  heroHeading.style.transition = "opacity 0.8s ease-in-out";
+
+  const updateHero = () => {
+    heroHeading.style.opacity = 0;
+
+    setTimeout(() => {
+      heroIndex = (heroIndex + 1) % heroImages.length;
+
+      hero.style.backgroundImage = `url('${heroImages[heroIndex]}')`;
+      heroHeading.textContent = heroTexts[heroIndex];
+
+      heroHeading.style.opacity = 1;
+    }, 1000);
+  };
+
+  hero.style.backgroundImage = `url('${heroImages[heroIndex]}')`;
+  heroHeading.textContent = heroTexts[heroIndex];
+
+  setInterval(updateHero, 5000);
+});
+</script>
+
+</body>
+</html>
+
+
